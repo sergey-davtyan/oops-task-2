@@ -80,7 +80,6 @@ Managed Node Groups (MNG):
   - Taint: spot=true:NoSchedule; schedule tolerant workloads only
 
 OS and security:
-- Prefer Bottlerocket for container-only, auto-updating, hardened nodes.
 - Enforce IMDSv2 and limited hop count on nodes.
 - Node root volumes: gp3, suitable size (e.g., 50–100 GiB) with proper throughput.
 
