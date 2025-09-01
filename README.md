@@ -22,18 +22,6 @@ For comprehensive technical details on each component, refer to the following ar
 
 ![High-Level Design Diagram](hld.jpg)
 
-```
-Internet
-  ↓
-CloudFront + WAF (Edge Security & Caching)
-  ↓
-├── S3 Bucket (React SPA Frontend)
-└── ALB (Load Balancing)
-    ↓
-    EKS Cluster (Python/Flask Backend API)
-    ↓
-    RDS PostgreSQL (Data Layer)
-```
 
 **Key Design Principles**:
 - **Multi-account isolation** for security and cost control
