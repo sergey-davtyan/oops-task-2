@@ -27,6 +27,7 @@ Minimum viable set (8 accounts):
 Optional (as you grow):
 - Sandbox-<team> accounts under a Sandbox OU
 - Data Platform accounts (e.g., data-nonprod, data-prod) if you want stricter data isolation
+- Separate app-team workload accounts if you host multiple products
 
 ## Organizational Layout
 

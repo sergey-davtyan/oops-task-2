@@ -10,15 +10,17 @@ This document provides a consolidated view of Innovate Inc.'s cloud infrastructu
 
 ### Detailed Documentation
 For comprehensive technical details on each component, refer to the following architecture documents:
-- **[Assignment Requirements](ASSIGNMENT_REQUIREMENTS.md)** - Project overview and assignment requirements
 - **[Cloud Environment Structure](CLOUD_ENVIRONMENT_STRUCTURE.md)** - Multi-account strategy, organizational units, and governance
 - **[Network Design](NETWORK_DESIGN.md)** - VPC architecture, security controls, and connectivity patterns
 - **[Compute Platform](COMPUTE_PLATFORM.md)** - EKS cluster design, scaling strategies, and containerization
 - **[Database Architecture](DATABASE.md)** - RDS PostgreSQL setup, high availability, and disaster recovery
+- **[Assignment Requirements](ASSIGNMENT_REQUIREMENTS.md)** - Project overview and assignment requirements
 
 ---
 
 ## High-Level Architecture
+
+![High-Level Design Diagram](hld.jpg)
 
 ```
 Internet
@@ -204,3 +206,13 @@ This architecture provides Innovate Inc. with:
 5. **Operational simplicity**: Managed services reduce team overhead
 
 The design balances startup pragmatism with enterprise-grade foundations, ensuring Innovate Inc. can focus on building their product while having confidence in their infrastructure's ability to scale with their success.
+
+### Implementation Resources
+Use the detailed documentation in the individual architecture files for implementation guidance:
+- **Start with**: [Cloud Environment Structure](CLOUD_ENVIRONMENT_STRUCTURE.md) for account setup
+- **Then deploy**: [Network Design](NETWORK_DESIGN.md) for VPC and security foundations
+- **Add compute**: [Compute Platform](COMPUTE_PLATFORM.md) for EKS deployment
+- **Include data**: [Database Architecture](DATABASE.md) for RDS setup
+- **Reference**: [Assignment Requirements](ASSIGNMENT_REQUIREMENTS.md) for project context and requirements
+
+**Next Steps**: Begin with Phase 1 implementation, focusing on getting the basic infrastructure running securely and efficiently.
